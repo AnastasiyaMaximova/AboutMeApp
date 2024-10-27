@@ -11,3 +11,5 @@ struct UserData {
     var name: String
     var password: String
 }
+
+let user1 = UserData(name: "Name", password: "Password")
