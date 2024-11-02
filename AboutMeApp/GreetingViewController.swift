@@ -3,12 +3,14 @@
 import UIKit
 
 final class GreetingViewController: UIViewController {
-    var userName: String!
     
-    @IBOutlet weak var userNameTF: UITextField!
+    @IBOutlet weak var userNameLabel: UILabel!
+    
+    var userName: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        userNameTF.text = "\(userName ?? "")!"
+        userNameLabel.text = "\(userName ?? "")!"
     }
 }
+
