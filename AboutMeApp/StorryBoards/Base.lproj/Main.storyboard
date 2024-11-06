@@ -316,7 +316,7 @@
         <!--Tab Bar View Controller-->
         <scene sceneID="ef6-q1-uEM">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="0W1-r1-EKf" customClass="TabBarViewController" customModule="AboutMeApp" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="0W1-r1-EKf" customClass="TabBarViewController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ros-pt-O7d">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -339,7 +339,7 @@
                     <tabBarItem key="tabBarItem" title="Anastasia" image="person.fill" catalog="system" selectedImage="person.fill" id="jFU-Ft-2rW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="s2q-pW-9fT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
