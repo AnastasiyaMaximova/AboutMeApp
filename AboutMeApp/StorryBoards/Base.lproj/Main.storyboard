@@ -250,7 +250,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="5Gr-5e-Khn">
                         <barButtonItem key="rightBarButtonItem" title="Bio" id="QoP-oc-9OU">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" systemColor="tintColor"/>
                             <connections>
                                 <segue destination="AMZ-uw-deg" kind="show" id="rw6-b2-KRh"/>
                             </connections>
@@ -316,7 +316,7 @@
         <!--Tab Bar View Controller-->
         <scene sceneID="ef6-q1-uEM">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="0W1-r1-EKf" customClass="TabBarViewController" customModule="AboutMeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="0W1-r1-EKf" customClass="TabBarViewController" customModule="AboutMeApp" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ros-pt-O7d">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -370,6 +370,9 @@
         </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
